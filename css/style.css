@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #1cccef0c; 
+    background-image: -moz-linear-gradient(345deg, #7d62422e 10%, #e0d4ae48 50%);
+    color:rgb(80, 49, 40);
+     
+}
+
+
+main {
+    min-height: 100vh;
+    padding: 0px 15%; 
+    background: radial-gradient(circle, rgba(178,174,238,1) 0%, rgba(148,233,182,1) 100%);
+    
+    
+}
+
+header {
+    min-height: 80px;
+    background-color: #1164c96f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 15px 5px 15px;
+        
+    z-index: 2;
+     
+}
+
+
+navbar {
+    
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: auto;
+}
+
+navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+navbar a:hover {
+    color: #f3deca;
+    text-decoration: underline 8px;
+}
+
+.cupa img {
+    width:55%;
+    height: 20vh;
+    width: 20vh;
+    object-fit: cover;
+    border-radius: 30%; float: right;
+    box-shadow: rgba(0, 0, 0, 0.748) 10px 13px 18px;
+}
+
+footer {
+    min-height: 80px;
+    background-color: #114bc9a8;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+p {
+    line-height: 150%;
+    text-indent: 30px;
+}
+
+
+
+li {
+    margin-top: 10px;
+    padding-left: 15px;
+    list-style-image: linear-gradient(#fa9483  #fa9483);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-family: Nunito;
+    color: rgba(32, 19, 94, 0.958);
+    
+}
+
+h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+table {
+    width: 95%;
+    align-content: center;
+    
+}
+
+section {
+   
+    padding: 90px 15px;
+}
+
+.logo {
+    height: 50px;
+    color: rgb(236, 228, 228);
+}
+
+#index {
+    background: linear-gradient(#b47d7d32, #000000ac) , url('../images/index.jpeg');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    
+}
+
+.index-info {
+  margin-top: 25vh;
+  text-align: center;
+
+}
+
+.index-info h1 {
+    font-size: 350%;
+    color: rgb(232, 230, 238);
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2d405786;
+}
+
+.link-index {
+    color: rgb(253, 237, 237);
+    text-decoration: underline #fa9483 2px;
+    font-size: 20px;
+}
+
+.link-index:hover {
+  color: #f3deca6b;  
+}
+
+.centered {
+    text-align: center;
+}
+
+.vframe {
+    width: 100%;
+    height: 30vw;
+    border: 2px solid #140b2c;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.748) 20px 33px 28px;
+}
+
+.rand {
+    width: 50%;
+}
+
+.loc {
+  overflow: auto;
+  border-bottom: 2px #f3deca dashed;
+  margin-bottom: 15px;
+
+}     
+
+.left_menu {
+   border:rgba(17, 17, 17, 0.24);
+   width:  90px;
+   float:  left;
+   position: fixed;
+   top: 350px;
+   
+   margin-left: -75px;
+   margin-bottom: 5px;
+}
+
+.left_menu img{
+     
+    width: 150%;
+    border-radius: 30%; float: right;
+    border: 2px solid red; 
+    box-shadow:  rgba(0, 0, 0, 0.748)20px 33px 28px;
+    
+}
+       
+
+
+.loc img{
+  height: 20vh;
+  width: 20vh;
+  object-fit: cover;
+  border-radius: 50%; float: right;
+  box-shadow: rgba(0, 0, 0, 0.748) 10px 13px 18px;
+}
+  
+
+
+.harta {
+    width:100%;
+    height:40vh;
+    border: 4px solid #f3deca;
+    border-radius: 5px;
+}
+
+.row {
+   overflow:  auto;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.contacte, .cform {
+    border: 2px solid #f3deca;
+    border-radius: 5px;
+    background-color: #f3deca5c;
+    padding: 5px 5%;
+    height: 325px;
+    margin-bottom: 15px;
+}
+
+.cform input, .cform textarea {
+    width: 100%;
+    font-size: 15px;
+    font-family: inherit;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+   
+}
+
+.intro {     
+    background-color: rgba(216, 216, 216, 0.345);     
+    border-radius: 5px;     
+    border: 1px solid #77301aab; 
+    position: relative;
+
+}  
+
+.intro img {     
+    border-radius: 5px;      
+    width: 100%;     
+    height: 150px;     
+    object-fit: cover;     
+    object-position: 0% 35%; 
+}  
+
+.intro p {     
+    padding: 15px;     
+    text-indent: 20px; 
+} 
+
+
+.galerie {
+    margin-top: 0px;
+    height: 100vh;
+    
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: center;
+}
+
+.galerie img {
+    width: 350px;
+    height: 350px;
+    margin-left: 2px;
+    object-fit: cover;
+    padding: 10px;
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.748) 20px 33px 28px;
+}
+
+
+.galerie img:hover {
+
+    filter: contrast(100%) drop-shadow(4px 3px 5px #777);
+    border-radius: 30px;
+    transform: rotate(7deg) translateX(-5px) scale(2);
+    position: relative;
+    z-index: 2;
+}
+ 
+.foter {
+    min-height: 100px;     
+    background-color: #77301aba;     
+    color: wheat;      
+    display: flex;     
+    justify-content: center;     
+    align-items: center;  
+}
+
+.intro-content {
+    padding: 15px;
+}
+p::first-line {
+    font-size: 34px;
+
+}
+
+h3::first-letter {
+    text-decoration: underline;
+
+}
+::selection {
+    color: #000;
+}
+.tabel {
+    min-width: 100px;
+    min-height: 100px;
+    border: 2px solid blue;     
+}
+.tabel tr {
+    border: 2px solid blue;
+    text-align: center;
+}
+.tabel th {
+    border: 2px solid blue;
+    font: 1.5em sans-serif;
+    color: #000;
+}
+.tabel td {
+    background-color: rgba(180, 182, 189, 0);
+    font: 1.5em sans-serif;
+    color: #fff;
+    text-shadow: 2px 3px 12px rgb(244, 15, 15);
+    
+}
+
+#hamburger {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    right: 22px;
+    top: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .galerie {
+        height: 400vh;
+       font-size:  5px; 
+       margin-left: 222px;
+       margin-right: 222px;
+       margin-top: 100px;
+       padding: 15px;
+       flex-direction:row;
+      }
+       body{ 
+           font-size: 16px;
+   
+       }
+       section {
+           padding: 90px 10px;
+       }
+   
+      #index {
+       min-width: 10vh;
+       
+      }
+       .index-info h1 {
+           font-size:  300%;
+           text-align: center;
+       }
+       .vframe {
+           height: 55vw;
+       }
+       
+       [class^="col-"]{
+            width: 100% !important;
+       }
+   
+      
+    navbar a {
+        display: none;
+    }
+    navbar.mobile a {
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+    
+    }
+    navbar {
+        display: block;
+    }
+    #hamburger {
+        display: block;
+    }
+}
